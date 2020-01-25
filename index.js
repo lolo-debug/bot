@@ -1,6 +1,6 @@
 const Discord = require("discord.js"); 
 const { Client, RichEmbed } = require('discord.js');
-const token = process.env.token
+const token = process.env.token;
 const client = new Discord.Client();
 var prefix = "*";
 
